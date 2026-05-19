@@ -109,7 +109,7 @@ GitHub Actions necesita credenciales para autenticarse en GCP. Crearemos una **S
 
 ```bash
 # Crear la service account
-gcloud iam service-accounts create github-actions-sa \
+gcloud iam service-accounts create github-actions-sa-<initial-name> \
   --display-name="GitHub Actions — UTEC Posgrado" \
   --description="SA para pipeline CI/CD desde GitHub Actions"
 ```
